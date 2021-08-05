@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Display</title>
+
+        <link rel="stylesheet" href="src2/css2/style2.css">
+    </head>
+    <body>
+        <div class="container"> <!--div 1-->
+            <h1>VIDEO GALLERY</h1>
+
+            <div class="row"> <!--div 2-->
+                 <div class="col"> <!--div 3-->
+                   
+                    <div class="main-img"> <!--div 4-->
+                    <img src="img/my_ads.jpg" width="100%">
+                    <img src="img/play.PNG" class="play-btn" onclick="playVideo('video_1.mp4')">
+                    </div>                 <!--div 4-->
+                </div>            <!--div 3-->
+               
+                <div class="col">  <!--div 5-->
+                  
+                    <div class="small-img-row"> <!--div 6-->
+                        
+                        <div class="small-img"> <!--div 7-->
+                        <img src="img/laptop.jpg" width="100%">
+                        <img src="img/play.PNG" class="play-btn" onclick="playVideo('video_2.mp4')">
+                        </div>                 <!--div 7-->
+                        <p>How to add multiple videos in a website or<br>to
+                           make a video gallery</p>
+                    </div>                     <!--div 6-->
+
+                    <div class="small-img-row"> <!--div 8-->
+                        
+                        <div class="small-img"> <!--div 9-->
+                        <img src="img/wedding.jpg" width="100%">
+                        <img src="img/play.PNG" class="play-btn" onclick="playVideo('video_3.mp4')">
+                        </div>                 <!--div 9-->
+                        <p>How to add multiple videos in a website or<br>to
+                           make a video gallery</p>
+                    </div>                     <!--div 8-->
+
+                    <div class="small-img-row"> <!--div 10-->
+                        
+                        <div class="small-img"> <!--div 11-->
+                        <img src="img/premium.jpg" width="100%">
+                        <img src="img/play.PNG" class="play-btn" onclick="playVideo('video_4.mp4')">
+                        </div>                 <!--div 11-->
+                        <p>How to add multiple videos in a website or<br>to
+                           make a video gallery</p>
+                    </div>                     <!--div 10-->
+
+                </div>             <!--div 5-->
+                
+            </div><!--div 2-->
+
+        </div> <!--div 1-->
+       
+        <div id="videoPlayer"> <!--div 12-->
+
+            <video width="100%" controls="controls" autoplay id="myVideo">
+                <source src="video_1.mp4" type="video/mp4" id="close">
+            </video>
+            <img src="img/close_icon.png" id="close-btn" onclick="closeBtn()">
+        </div> <!--div 12-->
+        <script src="main.js"></script>
+    </body>
+</html>

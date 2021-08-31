@@ -29,8 +29,8 @@ p {
 #first {
 	margin-top: 2px;
 	color: black;
-	margin-bottom: 30px;
-	font-size: 24px;
+	margin-bottom: 10px;
+	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
 	-webkit-text-fill-color: #FFCD5D;
@@ -38,7 +38,12 @@ p {
 }
 
 #second {
-	color: #51DF70;
+	color: black;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: u;
+	-webkit-text-fill-color: #51DF70;
+	-webkit-text-stroke-width: 1px;
 
 }
 
@@ -125,3 +130,11 @@ input {
 	display: none;
 }
 
+iframe{
+	float:inherit;
+	background-color: blanchedalmond;
+	width: 350px;
+	height: 350px;
+	font-family: montserrat;
+	font-size:30px;
+}

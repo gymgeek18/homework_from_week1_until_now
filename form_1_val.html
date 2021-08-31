@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Realtime Clock</title>
+    <meta name="Form-Validation" content="A simple HTML5, CSS and JavaScript form validation.">
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <!--Make sure script tag is the last tag in the body-->
+    <script src="form_1_val.js"></script>
+</body>
+
+</html>
